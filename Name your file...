@@ -1,0 +1,10 @@
+def calculate_sum(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print("Введіть два числа для обчислення їх суми.")
+    num1 = float(input("Перше число: "))
+    num2 = float(input("Друге число: "))
+    
+    result = calculate_sum(num1, num2)
+    print(f"Сума: {result}")
